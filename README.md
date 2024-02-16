@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Stats preview card component](https://github.com/Albrt78/frontend_mentor_project/tree/main/Stats%20Preview%20Card%20Component%20Main)
+-   Solution URL: [Stats preview card component](https://github.com/Albrt78/statspreviewcardcomponent.github.io/tree/main)
 -   Live Site URL: [Stats preview card component](https://albrt78.github.io/statspreviewcardcomponent.github.io/)
 
 ### Built with
