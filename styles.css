@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90dvh;
+  font-family: "Inter", sans-serif;
+  margin-top: 3rem;
+  padding-inline: 5.4%;
+}
+body main .wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 69.3rem;
+  max-width: 75rem;
+}
+body main .wrapper .left__side {
+  padding-inline: 4.5rem;
+}
+body main .wrapper .left__side h1 {
+  font-size: 2.23rem;
+  max-width: 380px;
+  padding-top: 4.8rem;
+  padding-bottom: 1.7rem;
+  color: hsl(0, 0%, 100%);
+}
+body main .wrapper .left__side h1 span {
+  color: hsl(277, 64%, 61%);
+}
+body main .wrapper .left__side p {
+  font-size: 0.94rem;
+  max-width: 360px;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+body main .wrapper .left__side .review-wrapper {
+  display: flex;
+  gap: 4.2rem;
+  padding-top: 4.7rem;
+}
+body main .wrapper .left__side .review-wrapper .content h2 {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+body main .wrapper .left__side .review-wrapper .content p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.795rem;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-style: 400;
+}
+body main .wrapper .right__side {
+  position: relative;
+}
+body main .wrapper .right__side .mask {
+  position: absolute;
+  background-color: hsl(277, 64%, 61%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 999;
+  opacity: 0.7;
+}
+body main .wrapper .right__side img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1200.98px) {
+  body main .wrapper {
+    width: 100%;
+  }
+  body main .wrapper .left__side {
+    padding-inline: 4rem;
+  }
+  body main .wrapper .left__side h1 {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+}
+@media screen and (max-width: 1075.98px) {
+  body main .wrapper .left__side h1 {
+    font-size: 1.7rem;
+    padding-top: 3rem;
+  }
+  body main .wrapper .left__side p {
+    font-size: 0.8rem;
+  }
+  body main .wrapper .left__side .review-wrapper {
+    padding-top: 3rem;
+  }
+}
+@media screen and (max-width: 995.98px) {
+  body main .wrapper {
+    width: 100%;
+  }
+  body main .wrapper .left__side {
+    padding-inline: 3rem;
+  }
+  body main .wrapper .left__side p {
+    max-width: 100%;
+  }
+  body main .wrapper .left__side .review-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 768.98px) {
+  body main .wrapper {
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+    width: 100%;
+  }
+  body main .wrapper .left__side {
+    text-align: center;
+  }
+  body main .wrapper .left__side h1 {
+    max-width: 100%;
+  }
+  body main .wrapper .left__side .review-wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576.98px) {
+  body main .wrapper {
+    width: 100%;
+  }
+  body main .wrapper .left__side h1 {
+    font-size: 1.4rem;
+  }
+  body main .wrapper .left__side p {
+    font-size: 0.7rem;
+  }
+  body main .wrapper .left__side .review-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+body .attribution {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 11px;
+  text-align: center;
+  font-weight: 600;
+}
+body .attribution a {
+  color: hsl(277, 64%, 61%);
+}/*# sourceMappingURL=styles.css.map */
