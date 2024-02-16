@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Stats preview card component](https://github.com/Albrt78/statspreviewcardcomponent.github.io/tree/main)
--   Live Site URL: [Stats preview card component](https://albrt78.github.io/statspreviewcardcomponent.github.io/)
+-   Live Site URL: [Stats preview card component](https://albrt78.github.io/statspreviewcard.github.io/)
 
 ### Built with
 
