@@ -122,7 +122,6 @@ body main .wrapper .right__side img {
 @media screen and (max-width: 768.98px) {
   body main .wrapper {
     flex-direction: column-reverse;
-    margin-top: 4rem;
     width: 100%;
   }
   body main .wrapper .left__side {
